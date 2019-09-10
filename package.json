@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Responsive Portfolio using Scss and Html",
   "main": "index.js",
+  "homepage":"https://soun059.github.io/my_portfolio/dist/index.html",
   "dependencies": {
     "node-sass": "^4.12.0"
   },

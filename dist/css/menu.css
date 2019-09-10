@@ -2,34 +2,34 @@
   main {
     align-items: center;
     text-align: center; }
-    main .heading {
-      line-height: 1;
-      margin-bottom: 1rem; }
-    main ul.menu-nav, main div.menu-logo {
-      float: none;
-      width: 100%;
-      min-height: 0; }
-      main ul.menu-nav.show, main div.menu-logo.show {
-        transform: translate3d(0, 0, 0); }
-    main .menu-nav {
-      height: 75vh;
-      transform: translate3d(-100%, 0, 0);
-      font-size: 24px; }
-    main .menu-logo {
-      height: 25vh;
-      transform: translate3d(100%, 0, 0); }
-      main .menu-logo .logo {
-        background: url(../image/logo_small.jpg);
-        width: 150px;
-        height: 150px; }
-    main .about-info {
-      grid-template-areas: 'bioimage' 'bio';
-      grid-template-columns: 1fr; }
-    main .jobs {
-      grid-template-areas: 'job1' 'job2' 'job3' 'job4' 'job5';
-      grid-template-columns: 1fr; }
     main .projects {
-      grid-template-columns: repeat(2, 1fr); } }
+      grid-template-columns: repeat(2, 1fr); }
+  .heading {
+    line-height: 1;
+    margin-bottom: 1rem; }
+  ul.menu-nav, div.menu-logo {
+    float: none;
+    width: 100%;
+    min-height: 0; }
+    ul.menu-nav.show, div.menu-logo.show {
+      transform: translate3d(0, 0, 0); }
+  .menu-nav {
+    height: 75vh;
+    transform: translate3d(-100%, 0, 0);
+    font-size: 24px; }
+  .menu-logo {
+    height: 25vh;
+    transform: translate3d(100%, 0, 0); }
+    .menu-logo .logo {
+      background: url(../image/logo_small.jpg);
+      width: 150px;
+      height: 150px; }
+  .about-info {
+    grid-template-areas: 'bioimage' 'bio';
+    grid-template-columns: 1fr; }
+  .jobs {
+    grid-template-areas: 'job1' 'job2' 'job3' 'job4' 'job5';
+    grid-template-columns: 1fr; } }
 
 @media screen and (max-width: 500px) {
   main#home h1 {
